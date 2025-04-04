@@ -201,9 +201,9 @@ info.info()
 info.modules()
 ```
 
-## File Transfer Tool
+## ESP Remote
 
-The included `app` executable is an FTP client tool for transferring files to/from your ESP. Source code for this tool is available at: https://github.com/poqob/ftp-tool.git
+The included `app` executable is an ESP Remote application with FTP tool for transferring files to/from your ESP. Source code for this tool is available at: https://github.com/poqob/esp-remote.git
 
 ### Setting Up File Transfer
 
