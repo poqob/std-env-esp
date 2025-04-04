@@ -1,5 +1,13 @@
-from home.main import main32
+from home.main import main
+from home.setup import Setup
+
+def loop():
+    pass
+
+
 if __name__=='__main__':
-    main32()
+    setup = Setup(callback=main, config_path="/config.json",loop=loop)
+    setup.setup_all()
+    setup.run_callback()
     
     

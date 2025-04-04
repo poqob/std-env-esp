@@ -1,0 +1,58 @@
+{
+  "network": {
+    "wifi": {
+      "ssid": "merkur",
+      "password": "merkur.online",
+      "static_ip": {
+        "enabled": false,
+        "ip": "192.168.1.100",
+        "subnet": "255.255.255.0",
+        "gateway": "192.168.1.1",
+        "dns": "8.8.8.8"
+      }
+    },
+    "access_point": {
+      "enabled": true,
+      "ssid": "saturn",
+      "password": "saturn.online",
+      "ip": "192.168.4.1",
+      "subnet": "255.255.255.0"
+    }
+  },
+  "services": {
+    "webrepl": {
+      "enabled": true,
+      "password": "esp32"
+    },
+    "ftp": {
+      "enabled": true
+    },
+    "command_server": {
+      "enabled": true,
+      "port": 8080,
+      "api_key": "poqob"
+    },
+    "ble": {
+      "enabled": false
+    }
+  },
+  "system": {
+    "frequency": "medium",
+    "frequency_options": {
+      "low": 80,
+      "medium": 160,
+      "high": 240
+    },
+    "auto_restart": {
+      "enabled": false,
+      "interval_hours": 24
+    },
+    "log_level": "info"
+  },
+  "project_info": {
+    "name": "Standard Environment",
+    "version": "1.0.0",
+    "author": "https://github.com/poqob",
+    "description": "Standard micropython environment setup for ESP Devices"
+  }
+}
